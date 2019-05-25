@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264734602298F0640021E7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2647345F2298F0640021E7EA /* AppDelegate.swift */; };
+		264734622298F0640021E7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264734612298F0640021E7EA /* ViewController.swift */; };
+		264734652298F0640021E7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264734632298F0640021E7EA /* Main.storyboard */; };
+		264734672298F0650021E7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264734662298F0650021E7EA /* Assets.xcassets */; };
+		2647346A2298F0650021E7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264734682298F0650021E7EA /* LaunchScreen.storyboard */; };
+		264734752298F0650021E7EA /* Reizoko_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264734742298F0650021E7EA /* Reizoko_SaverTests.swift */; };
+		264734802298F0650021E7EA /* Reizoko_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2647347F2298F0650021E7EA /* Reizoko_SaverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264734712298F0650021E7EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264734542298F0640021E7EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2647345B2298F0640021E7EA;
+			remoteInfo = "Reizoko-Saver";
+		};
+		2647347C2298F0650021E7EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264734542298F0640021E7EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2647345B2298F0640021E7EA;
+			remoteInfo = "Reizoko-Saver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2647345C2298F0640021E7EA /* Reizoko-Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reizoko-Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2647345F2298F0640021E7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		264734612298F0640021E7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		264734642298F0640021E7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264734662298F0650021E7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264734692298F0650021E7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2647346B2298F0650021E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264734702298F0650021E7EA /* Reizoko-SaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reizoko-SaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264734742298F0650021E7EA /* Reizoko_SaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reizoko_SaverTests.swift; sourceTree = "<group>"; };
+		264734762298F0650021E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2647347B2298F0650021E7EA /* Reizoko-SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reizoko-SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2647347F2298F0650021E7EA /* Reizoko_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reizoko_SaverUITests.swift; sourceTree = "<group>"; };
+		264734812298F0650021E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264734592298F0640021E7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2647346D2298F0650021E7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264734782298F0650021E7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264734532298F0640021E7EA = {
+			isa = PBXGroup;
+			children = (
+				2647345E2298F0640021E7EA /* Reizoko-Saver */,
+				264734732298F0650021E7EA /* Reizoko-SaverTests */,
+				2647347E2298F0650021E7EA /* Reizoko-SaverUITests */,
+				2647345D2298F0640021E7EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2647345D2298F0640021E7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2647345C2298F0640021E7EA /* Reizoko-Saver.app */,
+				264734702298F0650021E7EA /* Reizoko-SaverTests.xctest */,
+				2647347B2298F0650021E7EA /* Reizoko-SaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2647345E2298F0640021E7EA /* Reizoko-Saver */ = {
+			isa = PBXGroup;
+			children = (
+				2647345F2298F0640021E7EA /* AppDelegate.swift */,
+				264734612298F0640021E7EA /* ViewController.swift */,
+				264734632298F0640021E7EA /* Main.storyboard */,
+				264734662298F0650021E7EA /* Assets.xcassets */,
+				264734682298F0650021E7EA /* LaunchScreen.storyboard */,
+				2647346B2298F0650021E7EA /* Info.plist */,
+			);
+			path = "Reizoko-Saver";
+			sourceTree = "<group>";
+		};
+		264734732298F0650021E7EA /* Reizoko-SaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				264734742298F0650021E7EA /* Reizoko_SaverTests.swift */,
+				264734762298F0650021E7EA /* Info.plist */,
+			);
+			path = "Reizoko-SaverTests";
+			sourceTree = "<group>";
+		};
+		2647347E2298F0650021E7EA /* Reizoko-SaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2647347F2298F0650021E7EA /* Reizoko_SaverUITests.swift */,
+				264734812298F0650021E7EA /* Info.plist */,
+			);
+			path = "Reizoko-SaverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2647345B2298F0640021E7EA /* Reizoko-Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264734842298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-Saver" */;
+			buildPhases = (
+				264734582298F0640021E7EA /* Sources */,
+				264734592298F0640021E7EA /* Frameworks */,
+				2647345A2298F0640021E7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reizoko-Saver";
+			productName = "Reizoko-Saver";
+			productReference = 2647345C2298F0640021E7EA /* Reizoko-Saver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2647346F2298F0650021E7EA /* Reizoko-SaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264734872298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-SaverTests" */;
+			buildPhases = (
+				2647346C2298F0650021E7EA /* Sources */,
+				2647346D2298F0650021E7EA /* Frameworks */,
+				2647346E2298F0650021E7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264734722298F0650021E7EA /* PBXTargetDependency */,
+			);
+			name = "Reizoko-SaverTests";
+			productName = "Reizoko-SaverTests";
+			productReference = 264734702298F0650021E7EA /* Reizoko-SaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2647347A2298F0650021E7EA /* Reizoko-SaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2647348A2298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-SaverUITests" */;
+			buildPhases = (
+				264734772298F0650021E7EA /* Sources */,
+				264734782298F0650021E7EA /* Frameworks */,
+				264734792298F0650021E7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2647347D2298F0650021E7EA /* PBXTargetDependency */,
+			);
+			name = "Reizoko-SaverUITests";
+			productName = "Reizoko-SaverUITests";
+			productReference = 2647347B2298F0650021E7EA /* Reizoko-SaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264734542298F0640021E7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = SatoshiOkada;
+				TargetAttributes = {
+					2647345B2298F0640021E7EA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2647346F2298F0650021E7EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2647345B2298F0640021E7EA;
+					};
+					2647347A2298F0650021E7EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2647345B2298F0640021E7EA;
+					};
+				};
+			};
+			buildConfigurationList = 264734572298F0640021E7EA /* Build configuration list for PBXProject "Reizoko-Saver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264734532298F0640021E7EA;
+			productRefGroup = 2647345D2298F0640021E7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2647345B2298F0640021E7EA /* Reizoko-Saver */,
+				2647346F2298F0650021E7EA /* Reizoko-SaverTests */,
+				2647347A2298F0650021E7EA /* Reizoko-SaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2647345A2298F0640021E7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2647346A2298F0650021E7EA /* LaunchScreen.storyboard in Resources */,
+				264734672298F0650021E7EA /* Assets.xcassets in Resources */,
+				264734652298F0640021E7EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2647346E2298F0650021E7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264734792298F0650021E7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264734582298F0640021E7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264734622298F0640021E7EA /* ViewController.swift in Sources */,
+				264734602298F0640021E7EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2647346C2298F0650021E7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264734752298F0650021E7EA /* Reizoko_SaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264734772298F0650021E7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264734802298F0650021E7EA /* Reizoko_SaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264734722298F0650021E7EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2647345B2298F0640021E7EA /* Reizoko-Saver */;
+			targetProxy = 264734712298F0650021E7EA /* PBXContainerItemProxy */;
+		};
+		2647347D2298F0650021E7EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2647345B2298F0640021E7EA /* Reizoko-Saver */;
+			targetProxy = 2647347C2298F0650021E7EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264734632298F0640021E7EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264734642298F0640021E7EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264734682298F0650021E7EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264734692298F0650021E7EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264734822298F0650021E7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		264734832298F0650021E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264734852298F0650021E7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reizoko-Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokada.Reizoko-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		264734862298F0650021E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reizoko-Saver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokada.Reizoko-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		264734882298F0650021E7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reizoko-SaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokada.Reizoko-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reizoko-Saver.app/Reizoko-Saver";
+			};
+			name = Debug;
+		};
+		264734892298F0650021E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reizoko-SaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokada.Reizoko-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reizoko-Saver.app/Reizoko-Saver";
+			};
+			name = Release;
+		};
+		2647348B2298F0650021E7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reizoko-SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokada.Reizoko-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reizoko-Saver";
+			};
+			name = Debug;
+		};
+		2647348C2298F0650021E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reizoko-SaverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokada.Reizoko-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reizoko-Saver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264734572298F0640021E7EA /* Build configuration list for PBXProject "Reizoko-Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264734822298F0650021E7EA /* Debug */,
+				264734832298F0650021E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264734842298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264734852298F0650021E7EA /* Debug */,
+				264734862298F0650021E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264734872298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-SaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264734882298F0650021E7EA /* Debug */,
+				264734892298F0650021E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2647348A2298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-SaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2647348B2298F0650021E7EA /* Debug */,
+				2647348C2298F0650021E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264734542298F0640021E7EA /* Project object */;
+}
