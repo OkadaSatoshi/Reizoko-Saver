@@ -18,6 +18,8 @@
 		2692103A229BB7310091331F /* ItemList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26921039229BB7310091331F /* ItemList.storyboard */; };
 		2692103C229BB76F0091331F /* ItemCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2692103B229BB76F0091331F /* ItemCollection.storyboard */; };
 		2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692103D229BB77F0091331F /* ItemCollectionViewController.swift */; };
+		26921040229BB9C80091331F /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692103F229BB9C80091331F /* ItemListViewModel.swift */; };
+		26921042229BB9F90091331F /* ItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921041229BB9F90091331F /* ItemCollectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		26921039229BB7310091331F /* ItemList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemList.storyboard; sourceTree = "<group>"; };
 		2692103B229BB76F0091331F /* ItemCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemCollection.storyboard; sourceTree = "<group>"; };
 		2692103D229BB77F0091331F /* ItemCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewController.swift; sourceTree = "<group>"; };
+		2692103F229BB9C80091331F /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
+		26921041229BB9F90091331F /* ItemCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +142,9 @@
 		26921035229BB6F30091331F /* List */ = {
 			isa = PBXGroup;
 			children = (
-				26921037229BB7250091331F /* ItemListViewController.swift */,
 				26921039229BB7310091331F /* ItemList.storyboard */,
+				26921037229BB7250091331F /* ItemListViewController.swift */,
+				2692103F229BB9C80091331F /* ItemListViewModel.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -147,8 +152,9 @@
 		26921036229BB7000091331F /* Collection */ = {
 			isa = PBXGroup;
 			children = (
-				2692103D229BB77F0091331F /* ItemCollectionViewController.swift */,
 				2692103B229BB76F0091331F /* ItemCollection.storyboard */,
+				2692103D229BB77F0091331F /* ItemCollectionViewController.swift */,
+				26921041229BB9F90091331F /* ItemCollectionViewModel.swift */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 			files = (
 				264734602298F0640021E7EA /* AppDelegate.swift in Sources */,
 				26921034229BB6BF0091331F /* MainTabBarViewController.swift in Sources */,
+				26921040229BB9C80091331F /* ItemListViewModel.swift in Sources */,
+				26921042229BB9F90091331F /* ItemCollectionViewModel.swift in Sources */,
 				26921038229BB7250091331F /* ItemListViewController.swift in Sources */,
 				2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */,
 			);

@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,17 +27,18 @@
             </objects>
             <point key="canvasLocation" x="-655" y="245"/>
         </scene>
-        <!--ItemList-->
+        <!--Title-->
         <scene sceneID="qP1-Yl-ceq">
             <objects>
                 <viewController id="x0c-ey-mNe" customClass="ItemListViewController" customModule="Reizoko_Saver" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6mG-FF-vLX">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="U9G-8q-Y1k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="MSX-sI-9Pu"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="ItemList" id="bpw-jy-vDh"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="CLz-y7-gKX">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="c8o-Ae-F5Y"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ve-q8-lQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -38,7 +38,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xP8-w8-GUz"/>
                     </view>
-                    <navigationItem key="navigationItem" title="ItemCollection" id="2XG-ee-JGS"/>
+                    <navigationItem key="navigationItem" title="ItemCollection" id="2XG-ee-JGS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="v8H-c6-mqp"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rx-3m-YbK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
