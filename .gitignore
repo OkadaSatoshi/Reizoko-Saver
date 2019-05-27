@@ -19,7 +19,7 @@ DerivedData
 # CocoaPod
 Pods/*
 
-/vender/
+/vendor/
 
 # others
 *.swp
