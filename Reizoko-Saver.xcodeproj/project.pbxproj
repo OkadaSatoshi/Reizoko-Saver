@@ -20,6 +20,7 @@
 		2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692103D229BB77F0091331F /* ItemCollectionViewController.swift */; };
 		26921040229BB9C80091331F /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692103F229BB9C80091331F /* ItemListViewModel.swift */; };
 		26921042229BB9F90091331F /* ItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921041229BB9F90091331F /* ItemCollectionViewModel.swift */; };
+		26921045229BBA2B0091331F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921044229BBA2B0091331F /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		2692103D229BB77F0091331F /* ItemCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewController.swift; sourceTree = "<group>"; };
 		2692103F229BB9C80091331F /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
 		26921041229BB9F90091331F /* ItemCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewModel.swift; sourceTree = "<group>"; };
+		26921044229BBA2B0091331F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		2647345E2298F0640021E7EA /* Reizoko-Saver */ = {
 			isa = PBXGroup;
 			children = (
+				26921043229BBA1C0091331F /* Model */,
 				26921036229BB7000091331F /* Collection */,
 				26921035229BB6F30091331F /* List */,
 				26921033229BB6BF0091331F /* MainTabBarViewController.swift */,
@@ -157,6 +160,14 @@
 				26921041229BB9F90091331F /* ItemCollectionViewModel.swift */,
 			);
 			path = Collection;
+			sourceTree = "<group>";
+		};
+		26921043229BBA1C0091331F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26921044229BBA2B0091331F /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +307,7 @@
 				26921034229BB6BF0091331F /* MainTabBarViewController.swift in Sources */,
 				26921040229BB9C80091331F /* ItemListViewModel.swift in Sources */,
 				26921042229BB9F90091331F /* ItemCollectionViewModel.swift in Sources */,
+				26921045229BBA2B0091331F /* Item.swift in Sources */,
 				26921038229BB7250091331F /* ItemListViewController.swift in Sources */,
 				2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */,
 			);
