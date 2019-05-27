@@ -21,6 +21,9 @@
 		26921040229BB9C80091331F /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692103F229BB9C80091331F /* ItemListViewModel.swift */; };
 		26921042229BB9F90091331F /* ItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921041229BB9F90091331F /* ItemCollectionViewModel.swift */; };
 		26921045229BBA2B0091331F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921044229BBA2B0091331F /* Item.swift */; };
+		2F17342FF93CEF292FE715BD /* Pods_Reizoko_SaverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21658CF61F8311A9FDEA470 /* Pods_Reizoko_SaverTests.framework */; };
+		A6C673D49098648AFCB5D276 /* Pods_Reizoko_SaverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5D468F7DBE3E060360926 /* Pods_Reizoko_SaverUITests.framework */; };
+		E52EB14A9B94F0F7CB62BD05 /* Pods_Reizoko_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CEE0F2034DF2B044F6E2FC /* Pods_Reizoko_Saver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,15 @@
 		2692103F229BB9C80091331F /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
 		26921041229BB9F90091331F /* ItemCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewModel.swift; sourceTree = "<group>"; };
 		26921044229BBA2B0091331F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		73557892E5753800DD16EF6B /* Pods-Reizoko-SaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-SaverTests.release.xcconfig"; path = "Target Support Files/Pods-Reizoko-SaverTests/Pods-Reizoko-SaverTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B3757D82D1EB77681747AC1 /* Pods-Reizoko-SaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-SaverUITests.release.xcconfig"; path = "Target Support Files/Pods-Reizoko-SaverUITests/Pods-Reizoko-SaverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99FFAF80C7FBD1BF251BA643 /* Pods-Reizoko-Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-Saver.release.xcconfig"; path = "Target Support Files/Pods-Reizoko-Saver/Pods-Reizoko-Saver.release.xcconfig"; sourceTree = "<group>"; };
+		A21658CF61F8311A9FDEA470 /* Pods_Reizoko_SaverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reizoko_SaverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DD66CBF1023AF4DD5C1DD6 /* Pods-Reizoko-SaverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-SaverUITests.debug.xcconfig"; path = "Target Support Files/Pods-Reizoko-SaverUITests/Pods-Reizoko-SaverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAA5D468F7DBE3E060360926 /* Pods_Reizoko_SaverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reizoko_SaverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5CEE0F2034DF2B044F6E2FC /* Pods_Reizoko_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reizoko_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DC860CC3333139A2D7E087 /* Pods-Reizoko-Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-Saver.debug.xcconfig"; path = "Target Support Files/Pods-Reizoko-Saver/Pods-Reizoko-Saver.debug.xcconfig"; sourceTree = "<group>"; };
+		FE38CEFCFBD9C4F087799612 /* Pods-Reizoko-SaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-SaverTests.debug.xcconfig"; path = "Target Support Files/Pods-Reizoko-SaverTests/Pods-Reizoko-SaverTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52EB14A9B94F0F7CB62BD05 /* Pods_Reizoko_Saver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F17342FF93CEF292FE715BD /* Pods_Reizoko_SaverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C673D49098648AFCB5D276 /* Pods_Reizoko_SaverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +110,8 @@
 				264734732298F0650021E7EA /* Reizoko-SaverTests */,
 				2647347E2298F0650021E7EA /* Reizoko-SaverUITests */,
 				2647345D2298F0640021E7EA /* Products */,
+				4B933A61983E2CF6E41E4267 /* Pods */,
+				42A18B68A87EC974C7D711B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +187,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		42A18B68A87EC974C7D711B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5CEE0F2034DF2B044F6E2FC /* Pods_Reizoko_Saver.framework */,
+				A21658CF61F8311A9FDEA470 /* Pods_Reizoko_SaverTests.framework */,
+				DAA5D468F7DBE3E060360926 /* Pods_Reizoko_SaverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B933A61983E2CF6E41E4267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DC860CC3333139A2D7E087 /* Pods-Reizoko-Saver.debug.xcconfig */,
+				99FFAF80C7FBD1BF251BA643 /* Pods-Reizoko-Saver.release.xcconfig */,
+				FE38CEFCFBD9C4F087799612 /* Pods-Reizoko-SaverTests.debug.xcconfig */,
+				73557892E5753800DD16EF6B /* Pods-Reizoko-SaverTests.release.xcconfig */,
+				D4DD66CBF1023AF4DD5C1DD6 /* Pods-Reizoko-SaverUITests.debug.xcconfig */,
+				7B3757D82D1EB77681747AC1 /* Pods-Reizoko-SaverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 264734842298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-Saver" */;
 			buildPhases = (
+				817332F058AC76CC31E3F342 /* [CP] Check Pods Manifest.lock */,
 				264734582298F0640021E7EA /* Sources */,
 				264734592298F0640021E7EA /* Frameworks */,
 				2647345A2298F0640021E7EA /* Resources */,
+				433EB006E5760EC091F4BE0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 264734872298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-SaverTests" */;
 			buildPhases = (
+				667B251A8E6E21C1F246F736 /* [CP] Check Pods Manifest.lock */,
 				2647346C2298F0650021E7EA /* Sources */,
 				2647346D2298F0650021E7EA /* Frameworks */,
 				2647346E2298F0650021E7EA /* Resources */,
@@ -212,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2647348A2298F0650021E7EA /* Build configuration list for PBXNativeTarget "Reizoko-SaverUITests" */;
 			buildPhases = (
+				CD2D1E527EDCB273DA3A7C53 /* [CP] Check Pods Manifest.lock */,
 				264734772298F0650021E7EA /* Sources */,
 				264734782298F0650021E7EA /* Frameworks */,
 				264734792298F0650021E7EA /* Resources */,
@@ -297,6 +342,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		433EB006E5760EC091F4BE0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reizoko-Saver/Pods-Reizoko-Saver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reizoko-Saver/Pods-Reizoko-Saver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reizoko-Saver/Pods-Reizoko-Saver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667B251A8E6E21C1F246F736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reizoko-SaverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817332F058AC76CC31E3F342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reizoko-Saver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2D1E527EDCB273DA3A7C53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reizoko-SaverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		264734582298F0640021E7EA /* Sources */ = {
@@ -482,6 +613,7 @@
 		};
 		264734852298F0650021E7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DC860CC3333139A2D7E087 /* Pods-Reizoko-Saver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +631,7 @@
 		};
 		264734862298F0650021E7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FFAF80C7FBD1BF251BA643 /* Pods-Reizoko-Saver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +649,7 @@
 		};
 		264734882298F0650021E7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE38CEFCFBD9C4F087799612 /* Pods-Reizoko-SaverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +670,7 @@
 		};
 		264734892298F0650021E7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73557892E5753800DD16EF6B /* Pods-Reizoko-SaverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +691,7 @@
 		};
 		2647348B2298F0650021E7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DD66CBF1023AF4DD5C1DD6 /* Pods-Reizoko-SaverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +711,7 @@
 		};
 		2647348C2298F0650021E7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3757D82D1EB77681747AC1 /* Pods-Reizoko-SaverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
