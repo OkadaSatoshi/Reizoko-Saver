@@ -12,6 +12,8 @@ import RxSwift
 class ItemListViewController: UIViewController {
     
     private let viewModel = ItemListViewModel()
+    
+    var showEdit: (() -> Void)?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,5 +24,10 @@ class ItemListViewController: UIViewController {
     private func setupObserver() {
         
     }
-
+    @IBAction func addItem(_ sender: Any) {
+        if let showEdit = showEdit {
+            showEdit()
+        }
+    }
+    
 }

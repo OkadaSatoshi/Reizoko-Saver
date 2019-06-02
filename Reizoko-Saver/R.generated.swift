@@ -20,8 +20,8 @@ struct R: Rswift.Validatable {
   struct storyboard {
     /// Storyboard `ItemCollection`.
     static let itemCollection = _R.storyboard.itemCollection()
-    /// Storyboard `ItemEditViewController`.
-    static let itemEditViewController = _R.storyboard.itemEditViewController()
+    /// Storyboard `ItemEdit`.
+    static let itemEdit = _R.storyboard.itemEdit()
     /// Storyboard `ItemList`.
     static let itemList = _R.storyboard.itemList()
     /// Storyboard `LaunchScreen`.
@@ -34,9 +34,9 @@ struct R: Rswift.Validatable {
       return UIKit.UIStoryboard(resource: R.storyboard.itemCollection)
     }
     
-    /// `UIStoryboard(name: "ItemEditViewController", bundle: ...)`
-    static func itemEditViewController(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.itemEditViewController)
+    /// `UIStoryboard(name: "ItemEdit", bundle: ...)`
+    static func itemEdit(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.itemEdit)
     }
     
     /// `UIStoryboard(name: "ItemList", bundle: ...)`
@@ -78,7 +78,7 @@ struct _R: Rswift.Validatable {
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
       try itemCollection.validate()
-      try itemEditViewController.validate()
+      try itemEdit.validate()
       try itemList.validate()
       try launchScreen.validate()
       try main.validate()
@@ -98,9 +98,11 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    struct itemEditViewController: Rswift.StoryboardResourceType, Rswift.Validatable {
+    struct itemEdit: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = UIKit.UINavigationController
+      
       let bundle = R.hostingBundle
-      let name = "ItemEditViewController"
+      let name = "ItemEdit"
       
       static func validate() throws {
         if #available(iOS 11.0, *) {

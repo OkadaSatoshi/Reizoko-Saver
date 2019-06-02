@@ -11,3 +11,7 @@ import Foundation
 protocol Coordinator {
     func start()
 }
+
+protocol ShowEditCoordinatorProtocol {
+    func showEdit()
+}

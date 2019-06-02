@@ -13,7 +13,7 @@
 		2647346A2298F0650021E7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264734682298F0650021E7EA /* LaunchScreen.storyboard */; };
 		264734752298F0650021E7EA /* Reizoko_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264734742298F0650021E7EA /* Reizoko_SaverTests.swift */; };
 		264734802298F0650021E7EA /* Reizoko_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2647347F2298F0650021E7EA /* Reizoko_SaverUITests.swift */; };
-		265C492922A236FC007D7E67 /* ItemEditViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265C492822A236FC007D7E67 /* ItemEditViewController.storyboard */; };
+		265C492922A236FC007D7E67 /* ItemEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265C492822A236FC007D7E67 /* ItemEdit.storyboard */; };
 		265C492B22A2371F007D7E67 /* ItemEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492A22A2371F007D7E67 /* ItemEditViewController.swift */; };
 		265C492D22A2372E007D7E67 /* ItemEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */; };
 		265C493022A238D7007D7E67 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492F22A238D7007D7E67 /* Coordinator.swift */; };
@@ -21,6 +21,7 @@
 		2669D4CF22A3908300D51589 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4CE22A3908300D51589 /* R.generated.swift */; };
 		2669D4D122A392E500D51589 /* ItemListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4D022A392E500D51589 /* ItemListCoordinator.swift */; };
 		2669D4D322A398E000D51589 /* ItemCollectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4D222A398E000D51589 /* ItemCollectionCoordinator.swift */; };
+		2669D4D522A39B1D00D51589 /* ItemEditCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4D422A39B1D00D51589 /* ItemEditCoordinator.swift */; };
 		26921034229BB6BF0091331F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921033229BB6BF0091331F /* MainTabBarViewController.swift */; };
 		26921038229BB7250091331F /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921037229BB7250091331F /* ItemListViewController.swift */; };
 		2692103A229BB7310091331F /* ItemList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26921039229BB7310091331F /* ItemList.storyboard */; };
@@ -65,7 +66,7 @@
 		2647347B2298F0650021E7EA /* Reizoko-SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reizoko-SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2647347F2298F0650021E7EA /* Reizoko_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reizoko_SaverUITests.swift; sourceTree = "<group>"; };
 		264734812298F0650021E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		265C492822A236FC007D7E67 /* ItemEditViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemEditViewController.storyboard; sourceTree = "<group>"; };
+		265C492822A236FC007D7E67 /* ItemEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemEdit.storyboard; sourceTree = "<group>"; };
 		265C492A22A2371F007D7E67 /* ItemEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditViewController.swift; sourceTree = "<group>"; };
 		265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditViewModel.swift; sourceTree = "<group>"; };
 		265C492F22A238D7007D7E67 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		2669D4CE22A3908300D51589 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		2669D4D022A392E500D51589 /* ItemListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCoordinator.swift; sourceTree = "<group>"; };
 		2669D4D222A398E000D51589 /* ItemCollectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionCoordinator.swift; sourceTree = "<group>"; };
+		2669D4D422A39B1D00D51589 /* ItemEditCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditCoordinator.swift; sourceTree = "<group>"; };
 		26921033229BB6BF0091331F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		26921037229BB7250091331F /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		26921039229BB7310091331F /* ItemList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemList.storyboard; sourceTree = "<group>"; };
@@ -185,7 +187,7 @@
 		265C492722A236E9007D7E67 /* Edit */ = {
 			isa = PBXGroup;
 			children = (
-				265C492822A236FC007D7E67 /* ItemEditViewController.storyboard */,
+				265C492822A236FC007D7E67 /* ItemEdit.storyboard */,
 				265C492A22A2371F007D7E67 /* ItemEditViewController.swift */,
 				265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */,
 			);
@@ -206,6 +208,7 @@
 				265C493222A23963007D7E67 /* ApplicationCoordinator.swift */,
 				2669D4D022A392E500D51589 /* ItemListCoordinator.swift */,
 				2669D4D222A398E000D51589 /* ItemCollectionCoordinator.swift */,
+				2669D4D422A39B1D00D51589 /* ItemEditCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -378,7 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				265C492922A236FC007D7E67 /* ItemEditViewController.storyboard in Resources */,
+				265C492922A236FC007D7E67 /* ItemEdit.storyboard in Resources */,
 				2647346A2298F0650021E7EA /* LaunchScreen.storyboard in Resources */,
 				2692103A229BB7310091331F /* ItemList.storyboard in Resources */,
 				2692103C229BB76F0091331F /* ItemCollection.storyboard in Resources */,
@@ -526,6 +529,7 @@
 				2669D4D322A398E000D51589 /* ItemCollectionCoordinator.swift in Sources */,
 				265C492B22A2371F007D7E67 /* ItemEditViewController.swift in Sources */,
 				26921038229BB7250091331F /* ItemListViewController.swift in Sources */,
+				2669D4D522A39B1D00D51589 /* ItemEditCoordinator.swift in Sources */,
 				2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */,
 				265C493322A23963007D7E67 /* ApplicationCoordinator.swift in Sources */,
 			);

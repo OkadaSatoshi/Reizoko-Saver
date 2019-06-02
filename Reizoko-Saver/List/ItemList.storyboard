@@ -37,7 +37,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tableView>
                     <navigationItem key="navigationItem" title="Title" id="CLz-y7-gKX">
-                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="c8o-Ae-F5Y"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="c8o-Ae-F5Y">
+                            <connections>
+                                <action selector="addItem:" destination="x0c-ey-mNe" id="enm-gs-cJJ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ve-q8-lQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
