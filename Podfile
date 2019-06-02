@@ -7,7 +7,9 @@ target 'Reizoko-Saver' do
 
   # Pods for Reizoko-Saver
   pod 'RxSwift'
+  pod 'RxCocoa'
   pod 'RealmSwift'
+  pod 'R.swift'
 
   target 'Reizoko-SaverTests' do
     inherit! :search_paths

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		2647346A2298F0650021E7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264734682298F0650021E7EA /* LaunchScreen.storyboard */; };
 		264734752298F0650021E7EA /* Reizoko_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264734742298F0650021E7EA /* Reizoko_SaverTests.swift */; };
 		264734802298F0650021E7EA /* Reizoko_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2647347F2298F0650021E7EA /* Reizoko_SaverUITests.swift */; };
+		265C492922A236FC007D7E67 /* ItemEditViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265C492822A236FC007D7E67 /* ItemEditViewController.storyboard */; };
+		265C492B22A2371F007D7E67 /* ItemEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492A22A2371F007D7E67 /* ItemEditViewController.swift */; };
+		265C492D22A2372E007D7E67 /* ItemEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */; };
+		265C493022A238D7007D7E67 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492F22A238D7007D7E67 /* Coordinator.swift */; };
+		265C493322A23963007D7E67 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C493222A23963007D7E67 /* ApplicationCoordinator.swift */; };
+		265C493522A23A94007D7E67 /* MainTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C493422A23A94007D7E67 /* MainTabCoordinator.swift */; };
 		26921034229BB6BF0091331F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921033229BB6BF0091331F /* MainTabBarViewController.swift */; };
 		26921038229BB7250091331F /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921037229BB7250091331F /* ItemListViewController.swift */; };
 		2692103A229BB7310091331F /* ItemList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26921039229BB7310091331F /* ItemList.storyboard */; };
@@ -21,6 +27,7 @@
 		26921040229BB9C80091331F /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2692103F229BB9C80091331F /* ItemListViewModel.swift */; };
 		26921042229BB9F90091331F /* ItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921041229BB9F90091331F /* ItemCollectionViewModel.swift */; };
 		26921045229BBA2B0091331F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921044229BBA2B0091331F /* Item.swift */; };
+		2692104A229BD80A0091331F /* RealmCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921049229BD80A0091331F /* RealmCommunicator.swift */; };
 		2F17342FF93CEF292FE715BD /* Pods_Reizoko_SaverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21658CF61F8311A9FDEA470 /* Pods_Reizoko_SaverTests.framework */; };
 		A6C673D49098648AFCB5D276 /* Pods_Reizoko_SaverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5D468F7DBE3E060360926 /* Pods_Reizoko_SaverUITests.framework */; };
 		E52EB14A9B94F0F7CB62BD05 /* Pods_Reizoko_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CEE0F2034DF2B044F6E2FC /* Pods_Reizoko_Saver.framework */; };
@@ -56,6 +63,12 @@
 		2647347B2298F0650021E7EA /* Reizoko-SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reizoko-SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2647347F2298F0650021E7EA /* Reizoko_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reizoko_SaverUITests.swift; sourceTree = "<group>"; };
 		264734812298F0650021E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265C492822A236FC007D7E67 /* ItemEditViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemEditViewController.storyboard; sourceTree = "<group>"; };
+		265C492A22A2371F007D7E67 /* ItemEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditViewController.swift; sourceTree = "<group>"; };
+		265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditViewModel.swift; sourceTree = "<group>"; };
+		265C492F22A238D7007D7E67 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		265C493222A23963007D7E67 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		265C493422A23A94007D7E67 /* MainTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabCoordinator.swift; sourceTree = "<group>"; };
 		26921033229BB6BF0091331F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		26921037229BB7250091331F /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		26921039229BB7310091331F /* ItemList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemList.storyboard; sourceTree = "<group>"; };
@@ -64,6 +77,7 @@
 		2692103F229BB9C80091331F /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
 		26921041229BB9F90091331F /* ItemCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewModel.swift; sourceTree = "<group>"; };
 		26921044229BBA2B0091331F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		26921049229BD80A0091331F /* RealmCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCommunicator.swift; sourceTree = "<group>"; };
 		73557892E5753800DD16EF6B /* Pods-Reizoko-SaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-SaverTests.release.xcconfig"; path = "Target Support Files/Pods-Reizoko-SaverTests/Pods-Reizoko-SaverTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B3757D82D1EB77681747AC1 /* Pods-Reizoko-SaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-SaverUITests.release.xcconfig"; path = "Target Support Files/Pods-Reizoko-SaverUITests/Pods-Reizoko-SaverUITests.release.xcconfig"; sourceTree = "<group>"; };
 		99FFAF80C7FBD1BF251BA643 /* Pods-Reizoko-Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reizoko-Saver.release.xcconfig"; path = "Target Support Files/Pods-Reizoko-Saver/Pods-Reizoko-Saver.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,9 +142,13 @@
 		2647345E2298F0640021E7EA /* Reizoko-Saver */ = {
 			isa = PBXGroup;
 			children = (
+				265C493122A2394F007D7E67 /* Coordinator */,
+				265C492E22A238C8007D7E67 /* Protocols */,
+				26921046229BD1D80091331F /* Util */,
 				26921043229BBA1C0091331F /* Model */,
 				26921036229BB7000091331F /* Collection */,
 				26921035229BB6F30091331F /* List */,
+				265C492722A236E9007D7E67 /* Edit */,
 				26921033229BB6BF0091331F /* MainTabBarViewController.swift */,
 				2647345F2298F0640021E7EA /* AppDelegate.swift */,
 				264734632298F0640021E7EA /* Main.storyboard */,
@@ -157,6 +175,33 @@
 				264734812298F0650021E7EA /* Info.plist */,
 			);
 			path = "Reizoko-SaverUITests";
+			sourceTree = "<group>";
+		};
+		265C492722A236E9007D7E67 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				265C492822A236FC007D7E67 /* ItemEditViewController.storyboard */,
+				265C492A22A2371F007D7E67 /* ItemEditViewController.swift */,
+				265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		265C492E22A238C8007D7E67 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				265C492F22A238D7007D7E67 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		265C493122A2394F007D7E67 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				265C493222A23963007D7E67 /* ApplicationCoordinator.swift */,
+				265C493422A23A94007D7E67 /* MainTabCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		26921035229BB6F30091331F /* List */ = {
@@ -187,6 +232,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		26921046229BD1D80091331F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				26921049229BD80A0091331F /* RealmCommunicator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		42A18B68A87EC974C7D711B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,7 +260,6 @@
 				D4DD66CBF1023AF4DD5C1DD6 /* Pods-Reizoko-SaverUITests.debug.xcconfig */,
 				7B3757D82D1EB77681747AC1 /* Pods-Reizoko-SaverUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,6 +275,7 @@
 				264734592298F0640021E7EA /* Frameworks */,
 				2647345A2298F0640021E7EA /* Resources */,
 				433EB006E5760EC091F4BE0A /* [CP] Embed Pods Frameworks */,
+				2669D4C422A382E400D51589 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -319,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265C492922A236FC007D7E67 /* ItemEditViewController.storyboard in Resources */,
 				2647346A2298F0650021E7EA /* LaunchScreen.storyboard in Resources */,
 				2692103A229BB7310091331F /* ItemList.storyboard in Resources */,
 				2692103C229BB76F0091331F /* ItemCollection.storyboard in Resources */,
@@ -344,6 +398,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2669D4C422A382E400D51589 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		433EB006E5760EC091F4BE0A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,12 +508,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				264734602298F0640021E7EA /* AppDelegate.swift in Sources */,
+				265C492D22A2372E007D7E67 /* ItemEditViewModel.swift in Sources */,
 				26921034229BB6BF0091331F /* MainTabBarViewController.swift in Sources */,
 				26921040229BB9C80091331F /* ItemListViewModel.swift in Sources */,
 				26921042229BB9F90091331F /* ItemCollectionViewModel.swift in Sources */,
 				26921045229BBA2B0091331F /* Item.swift in Sources */,
+				265C493022A238D7007D7E67 /* Coordinator.swift in Sources */,
+				2692104A229BD80A0091331F /* RealmCommunicator.swift in Sources */,
+				265C492B22A2371F007D7E67 /* ItemEditViewController.swift in Sources */,
 				26921038229BB7250091331F /* ItemListViewController.swift in Sources */,
 				2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */,
+				265C493522A23A94007D7E67 /* MainTabCoordinator.swift in Sources */,
+				265C493322A23963007D7E67 /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
