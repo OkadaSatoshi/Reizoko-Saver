@@ -18,7 +18,6 @@
 		265C492D22A2372E007D7E67 /* ItemEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */; };
 		265C493022A238D7007D7E67 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C492F22A238D7007D7E67 /* Coordinator.swift */; };
 		265C493322A23963007D7E67 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C493222A23963007D7E67 /* ApplicationCoordinator.swift */; };
-		265C493522A23A94007D7E67 /* MainTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C493422A23A94007D7E67 /* MainTabCoordinator.swift */; };
 		2669D4CF22A3908300D51589 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4CE22A3908300D51589 /* R.generated.swift */; };
 		26921034229BB6BF0091331F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921033229BB6BF0091331F /* MainTabBarViewController.swift */; };
 		26921038229BB7250091331F /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921037229BB7250091331F /* ItemListViewController.swift */; };
@@ -69,7 +68,6 @@
 		265C492C22A2372E007D7E67 /* ItemEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditViewModel.swift; sourceTree = "<group>"; };
 		265C492F22A238D7007D7E67 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		265C493222A23963007D7E67 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
-		265C493422A23A94007D7E67 /* MainTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabCoordinator.swift; sourceTree = "<group>"; };
 		2669D4CE22A3908300D51589 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		26921033229BB6BF0091331F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		26921037229BB7250091331F /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				265C493222A23963007D7E67 /* ApplicationCoordinator.swift */,
-				265C493422A23A94007D7E67 /* MainTabCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -522,7 +519,6 @@
 				265C492B22A2371F007D7E67 /* ItemEditViewController.swift in Sources */,
 				26921038229BB7250091331F /* ItemListViewController.swift in Sources */,
 				2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */,
-				265C493522A23A94007D7E67 /* MainTabCoordinator.swift in Sources */,
 				265C493322A23963007D7E67 /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
