@@ -20,6 +20,7 @@
 		265C493322A23963007D7E67 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C493222A23963007D7E67 /* ApplicationCoordinator.swift */; };
 		2669D4CF22A3908300D51589 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4CE22A3908300D51589 /* R.generated.swift */; };
 		2669D4D122A392E500D51589 /* ItemListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4D022A392E500D51589 /* ItemListCoordinator.swift */; };
+		2669D4D322A398E000D51589 /* ItemCollectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2669D4D222A398E000D51589 /* ItemCollectionCoordinator.swift */; };
 		26921034229BB6BF0091331F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921033229BB6BF0091331F /* MainTabBarViewController.swift */; };
 		26921038229BB7250091331F /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26921037229BB7250091331F /* ItemListViewController.swift */; };
 		2692103A229BB7310091331F /* ItemList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26921039229BB7310091331F /* ItemList.storyboard */; };
@@ -71,6 +72,7 @@
 		265C493222A23963007D7E67 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		2669D4CE22A3908300D51589 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		2669D4D022A392E500D51589 /* ItemListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCoordinator.swift; sourceTree = "<group>"; };
+		2669D4D222A398E000D51589 /* ItemCollectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionCoordinator.swift; sourceTree = "<group>"; };
 		26921033229BB6BF0091331F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		26921037229BB7250091331F /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		26921039229BB7310091331F /* ItemList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemList.storyboard; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			children = (
 				265C493222A23963007D7E67 /* ApplicationCoordinator.swift */,
 				2669D4D022A392E500D51589 /* ItemListCoordinator.swift */,
+				2669D4D222A398E000D51589 /* ItemCollectionCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				26921045229BBA2B0091331F /* Item.swift in Sources */,
 				265C493022A238D7007D7E67 /* Coordinator.swift in Sources */,
 				2692104A229BD80A0091331F /* RealmCommunicator.swift in Sources */,
+				2669D4D322A398E000D51589 /* ItemCollectionCoordinator.swift in Sources */,
 				265C492B22A2371F007D7E67 /* ItemEditViewController.swift in Sources */,
 				26921038229BB7250091331F /* ItemListViewController.swift in Sources */,
 				2692103E229BB77F0091331F /* ItemCollectionViewController.swift in Sources */,

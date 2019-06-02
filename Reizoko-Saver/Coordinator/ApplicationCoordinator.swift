@@ -13,17 +13,20 @@ class ApplicationCoordinator: Coordinator {
     let window: UIWindow
     let rootViewController: UITabBarController
     let itemListCoordinator: ItemListCoordinator
+    let itemCollectionCoordinator: ItemCollectionCoordinator
     
     init(window: UIWindow) {
         self.window = window
         let tabVC = R.storyboard.main.instantiateInitialViewController()!
         rootViewController = tabVC
         itemListCoordinator = ItemListCoordinator(presenter: rootViewController)
+        itemCollectionCoordinator = ItemCollectionCoordinator(presenter: rootViewController)
     }
     
     func start() {
         window.rootViewController = rootViewController
         self.itemListCoordinator.start()
+        self.itemCollectionCoordinator.start()
         window.makeKeyAndVisible()
     }
 }
