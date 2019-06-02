@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import RxSwift
 
 class ItemListViewController: UIViewController {
+    
+    private let viewModel = ItemListViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    private func setupObserver() {
+        
     }
 
 }

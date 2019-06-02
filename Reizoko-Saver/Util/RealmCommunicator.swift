@@ -28,7 +28,7 @@ class RealmCommunicator {
         return realm.object(ofType: type, forPrimaryKey: key)
     }
     
-    func add<T: Object>(_ data: [T], update: Bool = true) {
+    func addArr<T: Object>(_ data: [T], update: Bool = true) {
         if !isRealmAccessible() { return }
         
         let realm = try! Realm()
@@ -44,7 +44,7 @@ class RealmCommunicator {
     }
     
     func add<T: Object>(_ data: T, update: Bool = true) {
-        add([data], update: update)
+        addArr([data], update: update)
     }
     
     func runTransaction(action: () -> Void) {
@@ -58,16 +58,17 @@ class RealmCommunicator {
         }
     }
     
-    func delete<T: Object>(_ data: [T]) {
+    func deleteArr<T: Object>(_ data: [T]) {
         let realm = try! Realm()
         realm.refresh()
         try? realm.write { realm.delete(data) }
     }
     
     func delete<T: Object>(_ data: T) {
-        delete([data])
+        deleteArr([data])
     }
     
+    /// ***すべてのデータを削除する***
     func clearAllData() {
         if !isRealmAccessible() { return }
         
