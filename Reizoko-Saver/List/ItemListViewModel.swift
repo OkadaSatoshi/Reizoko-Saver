@@ -7,7 +7,22 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
 
 class ItemListViewModel {
+    
+    private let itemsRelay: BehaviorRelay<[Item]>  = BehaviorRelay(value: [])
+    var items: Observable<[Item]> {
+        return itemsRelay.asObservable()
+    }
+    
+    init() {
+        refleshItems()
+    }
+    
+    func refleshItems() {
+        print("reflesh")
+    }
     
 }
