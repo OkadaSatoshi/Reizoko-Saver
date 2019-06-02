@@ -12,13 +12,12 @@ import UIKit
 class ApplicationCoordinator: Coordinator {
     
     let window: UIWindow
-    let rootViewController: UINavigationController
+    let rootViewController: UITabBarController
     
     init(window: UIWindow) {
         self.window = window
-        rootViewController = UINavigationController()
-        
-        
+        let tabVC = R.storyboard.main.instantiateInitialViewController()!
+        rootViewController = tabVC
     }
     
     func start() {
